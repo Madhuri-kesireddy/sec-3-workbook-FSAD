@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
+<<<<<<< HEAD
 	<name>hibernate-crud</name>
+=======
+<<<<<<< HEAD
+	<name>hibernate-hql</name>
+=======
+	<name>HibernateCRUD</name>
+>>>>>>> 30fea6b2cec53c1e7b520ebfa4da9d240990beb4
+>>>>>>> e212664d958e7acb6ddaabd89b9dc1d619ede427
 	<comment></comment>
 	<projects>
 	</projects>
