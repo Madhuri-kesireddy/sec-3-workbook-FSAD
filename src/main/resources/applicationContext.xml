@@ -1,0 +1,33 @@
+<<<<<<< HEAD
+=======
+<?xml version="1.0" encoding="UTF-8"?>
+>>>>>>> 739073e7a93a3f5b8f9613e7df3010aee28a8075
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+       http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd">
+<<<<<<< HEAD
+       <bean id="courseReg"  class="com.klu.model.CourseRegistration">
+       <constructor-arg value="101"/>
+       <constructor-arg value="Madhuri"/>
+       <property name="courseName" value="FSAD"/>
+       <property name="semester" value="4"/>
+       </bean>
+=======
+
+    <!-- Engine Bean -->
+    <bean id="engine" class="com.klu.demo.Engine" />
+
+    <!-- Constructor Injection -->
+    <bean id="car" class="com.klu.demo.Car">
+        <constructor-arg ref="engine" />
+    </bean>
+
+    <!-- Setter Injection -->
+    <bean id="bike" class="com.klu.demo.Bike">
+        <property name="engine" ref="engine" />
+    </bean>
+
+>>>>>>> 739073e7a93a3f5b8f9613e7df3010aee28a8075
+</beans>

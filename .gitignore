@@ -1,0 +1,43 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 739073e7a93a3f5b8f9613e7df3010aee28a8075
+HELP.md
+target/
+.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+<<<<<<< HEAD
+=======
+=======
+/.metadata/
+>>>>>>> f5ae569503eba0702414017121405c5cb278b514
+>>>>>>> 739073e7a93a3f5b8f9613e7df3010aee28a8075
